@@ -1,34 +1,42 @@
-# Responsiv kattsida
+# Kattsidan
 
-Er uppgift är att göra kattsidan responsiv. Lägg även till valfria visuella effekter när man rör
-muspekaren över bilder och knappar. I mobil-läge ska navigeringen bytas ut mot en hamburgarmeny,
-men den behöver inte vara klickbar.
+Welcome to **Kattsidan**, a website dedicated to cat lovers! This project is a responsive, multi-page website featuring different sections such as information about cats, a registration form for users, and stunning cat images.
 
-## Hur du klarar uppgiften
+## Table of Contents
 
-Kopiera index.html och style.css till ditt eget projekt och se till att webbsidan går att visa i
-mobil vy utan att delar av sidan ligger utanför skärmen.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+## Features
 
-## Sätt upp ett repo med Github
+- **Responsive Design**: The website is optimized for different screen sizes, including mobile devices.
+- **Hamburger Menu**: The navigation bar is accessible through a hamburger icon in mobile view.
+- **Multi-Page Layout**: Includes sections such as Start, Katter, Om oss, and Kontakt.
+- **Registration Form**: Users can register using a simple form with fields like First Name, Last Name, Username, Password, Email, and Cat Breed.
 
-1. Skapa ett repo på github.
-2. Ladda up dina filer till github:
+## Technologies Used
 
-```
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin <Adressen till ditt repo>
-git push -u origin main
-```
+- **HTML**: Structure of the web pages.
+- **CSS**: Styling for the layout, including Flexbox for responsiveness.
+- **JavaScript**: Interactive elements like the hamburger menu.
+- **FontAwesome**: Icons used for the hamburger menu and other UI elements.
 
-## Hur du lämnar in
+## Installation
 
-Klicka på uppgiften i canvas och ange länken till ditt repo.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Shabbo0o/responsive-cat-website.git
+    cd cat-website
+    ```
 
----
+2. **Open the project**:
+   Open `index.html` in your browser to view the website locally.
 
-### :boom: Success!
+## Usage
 
-Efter denna uppgift ska ni veta hur man får en sida att bli responsiv.
+- **Viewing the Site**: Open `index.html` in a browser.
+- **Navigating the Menu**: Click the hamburger icon to open/close the navigation bar on smaller screens.
+- **Registering**: Navigate to the registration page and fill in the form to submit your registration.
+
+
