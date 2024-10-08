@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h2 class="registeration-container">Registeration</h2>
+        <div class="formContainer">
+            <form action="https://httpbin.org/anything" method="post">
+                <div class="firstName">
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" name="firstName" type="text" required />
+                </div>
+                <div class="lastName">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" name="lastName" type="text" required />
+                </div>
+                <div class="userName">
+                    <label for="userName">User Name</label>
+                    <input id="userName" name="userName" type="text" required />
+                </div>
+                <div class="password">
+                    <label for="pass">Password</label>
+                    <input id="pass" name="password" type="password" required />
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required />
+                </div>
+                <div class="catBreed">
+                    <label for="catBreed">Choose your favorite cat breed</label>
+                    <select name="catBreed" id="catBreed" required>
+                        <option value="">Please choose a cat breed</option>
+                        <option value="Foldex">Foldex</option>
+                        <option value="Persian">Persian</option>
+                        <option value="German Rex">German Rex</option>
+                        <option value="Cyprus">Cyprus</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms" name="terms" value="True" required>
+                    <label for="terms">I agree to these terms and conditions.</label>
+                </div>
+                <div class="send">
+                    <button type="submit" class="button">OK</button>
+                    <button type="cancel" class="button">Cancel</button>
+                </div>
+                <div class="cancel"></div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
